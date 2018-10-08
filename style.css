@@ -1,0 +1,76 @@
+.key {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    padding: 0;
+    background-image: url('images/keyboard-key.png');
+    background-size: cover;
+    cursor: pointer;
+    height: 42px;
+    width: 3em;
+    border: 0;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    border-radius: 7px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    height: 50px;
+}
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding-bottom: 2em;
+    border-radius: 5px; 
+}
+body {
+    background-color: #a9d1da;
+    text-align: center;
+}
+.input {
+    width: 600px;
+    height: 104px;
+    padding-top: 46px;
+    margin-bottom: 1em;
+}
+.space {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    padding: 0;
+    background-image: url('images/space-bar-key.png');
+    background-size: cover;
+    cursor: pointer;
+    height: 42px;
+    width: 5em;
+    border: 0;
+}
+@media (min-width: 570px) {
+    h1 {
+    text-align: center;
+}
+}
+.card {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+#input {
+    height: 7em;
+    padding-top: 3em;
+}
+#keys {
+
+}
